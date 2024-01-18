@@ -1,0 +1,50 @@
+#offer {
+  .container {
+    .offer {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 70px;
+      .card {
+        width: 340px;
+
+        .card-img-top {
+          width: 100%;
+        }
+        .card-body {
+          padding: 45px;
+          background-color: white;
+          height: 300px;
+          .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 35px;
+            font-family: serif;
+          }
+          .card-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25.6px;
+
+            color: #b8b8b8;
+          }
+          .s-btn {
+            line-height: 18px;
+            font-size: 12px;
+            font-family: serif;
+            margin-top: 25px;
+            padding: 9px 22px;
+            background-color: #fda403;
+            border: none;
+            color: white;
+
+            &:hover {
+              background-color: #cb8402;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+#newss {
+  background-color: #f8f9fa;
+  .container {
+    .newss {
+      padding: 120px 0px;
+      .newss-text {
+        margin: auto;
+        font-weight: 300;
+        .n-h3 {
+          font-size: 56px;
+          font-family: serif;
+          font-weight: 100;
+        }
+
+        .n-p {
+          font-size: 22px;
+          color: #b8b8b8;
+          font-weight: 300;
+          line-height: 32px;
+        }
+      }
+
+      .newss-card-container {
+        .newss-cards {
+          display: flex;
+          gap: 30px;
+          justify-content: center;
+          margin-top: 70px;
+          .card {
+            width: 340px;
+
+            .card-img-top {
+              width: 100%;
+            }
+            .card-body {
+              padding: 45px;
+              background-color: white;
+              height: 300px;
+              .card-title {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 35px;
+                font-family: serif;
+              }
+              .card-text {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25.6px;
+
+                color: #b8b8b8;
+              }
+              .s-btn {
+                line-height: 18px;
+                font-size: 12px;
+                font-family: serif;
+                margin-top: 25px;
+                padding: 9px 22px;
+                background-color: #fda403;
+                border: none;
+                color: white;
+
+                &:hover {
+                  background-color: #cb8402;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

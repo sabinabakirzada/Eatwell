@@ -1,0 +1,58 @@
+#story {
+  .container {
+    .story {
+      display: flex;
+      padding: 120px 50px 120px 250px;
+      gap: 100px;
+      .story-text-container {
+        text-align: left;
+        width: 430px;
+
+        .s-h5 {
+          font-size: 16px;
+          letter-spacing: 8px;
+          font-weight: 300;
+          color: #d4d4d4;
+        }
+        .s-h3 {
+          font-size: 56px;
+          font-weight: 400;
+          font-family: serif;
+          padding: 13px 0px 28px 0px;
+        }
+        .s-p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #b8b8b8;
+        }
+        .s-p2 {
+          padding: 19px 0px;
+        }
+        .s-btn {
+          font-size: 17px;
+          font-weight: 400;
+          color: #999999;
+          padding: 15px 35px;
+          border: 2px solid #c0c0c0;
+          background-color: #99999900;
+          font-family: serif;
+
+          &:hover {
+            cursor: pointer;
+            background-color: #fda403;
+            color: white;
+            transition: 0.5s;
+            border: none;
+          }
+        }
+      }
+
+      .s-img {
+        .s-img1 {
+          width: 500px;
+          height: 340px;
+        }
+      }
+    }
+  }
+}
